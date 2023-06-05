@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.título-destaque{
+    color: #53FF45;
+}
+
+.pergunta{
+    color:#53FF45
+}
+
+.aapresentacao{
+    padding: 5% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+    height: 482px;
+    min-height: 100vh;
+}
+
+.fotodudu{
+    width: 50%;
+}
+
+.apresentacao_titulo{
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.texto_apresentacao{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botoes_links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.botao_instagram{
+    text-align: center;
+    border: solid 2px #53FF45;
+    color: #ffffff;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.botao_linkedin{
+    text-decoration: none;
+    text-align: center;
+    border: solid 2px #53FF45;
+    color: #ffffff;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.botao_whats{
+    text-decoration: none;
+    text-align: center;
+    border: solid 2px #53FF45;
+    color: #ffffff;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.25rem;
+}
+
+.botao_instagram:hover{
+    background-color: #272727;
+    color: #F6F6F6
+}
+
+.botao_linkedin:hover{
+    background-color: #272727;
+    color: #F6F6F6;
+}
+
+.botao_whats:hover{
+    background-color: #272727;
+    color: #F6F6F6;
+
+}
+
+.iconezap{
+    width: 32px;
+    height: 32px;
+}
+
+.iconeinsta{
+    width: 30px;
+    height: 30px;
+}
+
+.rodape{
+    color:  #272727;
+    background-color: #53FF45;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.cabecalho{
+    padding: 5% 0 0 8%;
+}
+.cabecalho_links{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_botoes{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 1.5rem;
+    color: #53FF45;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    
+    .cabecalho{
+        padding: 12%;
+    }
+
+    .cabecalho_links{
+        justify-content: center;
+    }
+    
+    .aapresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    
+    .texto_apresentacao{
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
